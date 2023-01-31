@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gradient background color</title>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">
+    <link href="Style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="graidBox"  class="GridPreview">Gradient preview</div>
+    <div class="Container">
+      <form action="" id="submit" >
+        <div id="selectDirection" class="InputBox" >
+          <label for="Direction">Direction</label>
+         <input type="text" id="Direction1" style="display: none;" name="Direction" placeholder="insert angle of the gradient Direction..."   />
+          <select id="Direction" name="Direction" placeholder="insert Direction of gradient...">
+           <!-- <option  value=""></option>-->
+            <option class="option" value="to right">to right</option>
+            <option class="option" value="to bottom right">to bottom right</option>
+            <option class="option" value="to left">to left</option>
+            <option class="option" value="to bottom">to bottom</option>
+            <option id="OtherOption" class="option" value="other" >other</option>
+
+            </select> 
+        </div>
+       
+        <div class="InputBox">
+          <label for="">color-stop1</label>
+          <input type="text" id="color-stop1" name="color-stop1" placeholder="insert color1..." />
+        </div>
+        
+        <div class="InputBox">
+          <label for="">color-stop2</label>
+          <input type="text" id="color-stop2" name="color-stop2" placeholder="insert color2..." />
+        </div>
+       </form>
+    </div>
+    <div class="text">
+     <div id="inputText" class="GridPreview">CSS Code:linear-gradient(<span id="inputTextDirecton"></span>, <span id="inputTextcolor-stop1"></span>, <span id="inputTextcolor-stop2"></span>)</div> 
+     <div id="syntax">syntax:linear-gradient(angle, color-stop1, color-stop2)</div>
+    </div>
+    <script src="app.js" type="text/javascript"></script>
+</body>
+</html>

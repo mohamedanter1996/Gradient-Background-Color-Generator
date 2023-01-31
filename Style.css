@@ -1,0 +1,112 @@
+#graidBox{
+width: 100%;
+height:300px;
+font-size: 100px;
+text-align: center;
+box-sizing: border-box;
+padding: 50px;
+color:white;
+}
+.Container::after{
+
+content: "\a";
+white-space: pre;
+}
+
+.Container{
+    width: 100%;
+    height: 30px;
+  
+    box-sizing: border-box;
+    padding-left: 5%;
+   
+}
+.InputBox{
+  
+    margin-top: 10px;
+    float: left;
+    padding-left:10%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.text::before{
+
+    content: "\a";
+white-space: pre;
+  }
+.text{
+
+  text-align: center;
+    width: 100%;
+    height: auto;
+    
+    box-sizing: border-box; 
+}
+.GridPreview{
+
+background-image: linear-gradient(to right,black , white);
+
+}
+
+#DeleteButton{
+     width: auto;
+     height: auto;
+     border: black solid 5px;
+     margin-left: 20px;
+    box-sizing: border-box;
+}
+#Direction{
+    width: 180px;
+    height: 30px;
+border-radius: 4px;
+box-sizing: border-box;
+
+}
+
+#Direction1{
+    width: 180px;
+    height: 30px;
+border-radius: 4px;
+box-sizing: border-box;
+
+}
+
+#color-stop1{
+    width: 100px;
+    height: 30px;
+    
+    box-sizing: border-box;
+  
+}
+
+#color-stop2{
+    width: 100px;
+    height: 30px;
+    
+    box-sizing: border-box;
+   
+}
+
+#inputText{
+
+box-sizing: border-box;
+
+width: 700px;
+font-size: 20px;
+margin-left: 25%;
+}
+
+#syntax{
+
+    box-sizing: border-box;
+    width: 700px;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-top: 10px;
+    }
+
+
+
+
+
